@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BRUH MOMENT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  a 
+{
+ cursor: pointer;
+ 
+}
+</style>
+
+</head>
+<body class="bg-light" style="font-family: 'Alegreya Sans';font-size: 22px;">
+<b>
+<nav class="navbar navbar-expand-sm bg-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link text-light" href="Index.html" style="margin-left: 38px">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="work.html" style="margin-left: 12px" >ABOUT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="code.html" style="margin-left: 12px">CODE</a>
+    </li>
+  </ul>
+</nav>
+<br>
+    </b>
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+          <div  style="background-color: #e3e9ef">
+           <pre style="height: 541px; overflow-y: scroll; padding-left: 5px">
+           <code>          
+# include &ltiostream&gt
+using namespace std;
+
+int main()
+{
+    while (1)
+    {
+    char op;
+    float num1, num2;
+
+    cout << "Enter + or - or * or /: ";
+    cin >> op;
+
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
+
+    switch (op)
+    {
+    case '+':
+        cout << num1 + num2 << endl;
+        break;
+
+    case '-':
+        cout << num1 - num2 << endl;
+        break;
+
+    case '*':
+        cout << num1 * num2 << endl;
+        break;
+
+    case '/':
+        cout << num1 / num2 << endl;
+        break;
+
+    default:
+        cout << "Error!";
+        break;
+    }
+    }
+    
+}
+           </code>
+
+           </pre>
+            </div>
+        </div>
+        <div class="col">
+          <a>
+               <img src="calculator.png" alt="O" width="100%" height="81.5%" >
+          </a>  
+          
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
